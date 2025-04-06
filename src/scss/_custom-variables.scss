@@ -1,0 +1,70 @@
+// Custom theme colors
+$primary: #ff6b00;    // Orange
+$secondary: #1a1a1a;  // Dark gray (almost black)
+$light: #ffffff;      // White
+$dark: #000000;      // Black
+
+// Override Bootstrap theme colors
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "dark": $dark,
+  "warning": $primary,
+  "danger": #ff3300,  // Darker orange for danger/error states
+  "success": #ff8533  // Lighter orange for success states
+);
+
+// Background colors
+$body-bg: $light;
+$body-color: $dark;
+
+// Text colors in dark sections
+$headings-color: $light;
+$display-color: $light;
+
+// Navbar
+$navbar-dark-color: $light;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-bg: $dark;
+$navbar-dark-active-color: $primary;
+
+// Links
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+$link-decoration: none;
+
+// Buttons
+$btn-primary-color: $dark;
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+
+// Cards
+$card-bg: $light;
+$card-border-color: $dark;
+$card-color: $dark;
+$card-cap-bg: $dark;
+$card-cap-color: $light;
+
+// Input fields
+$input-bg: $light;
+$input-color: $dark;
+$input-border-color: $dark;
+$input-focus-border-color: $primary;
+$input-focus-box-shadow: 0 0 0 0.25rem rgba($primary, 0.25);
+
+// List groups
+$list-group-bg: $light;
+$list-group-color: $dark;
+$list-group-border-color: $dark;
+$list-group-active-bg: $primary;
+$list-group-active-color: $dark;
+$list-group-active-border-color: $primary;
+
+// Text colors
+$text-muted: darken($light, 40%);
+
+// Dark theme text colors
+$dark-theme-text: $light;
+$dark-theme-heading: $light;
+$dark-theme-muted: lighten($secondary, 40%); 
