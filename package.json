@@ -1,0 +1,38 @@
+{
+  "name": "tuiter",
+  "version": "0.0.1",
+  "description": "Tuiter - A social media platform",
+  "scripts": {
+    "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css",
+    "dev": "concurrently \"npm run watch\" \"live-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AB30001/js2-ca-arnb.git"
+  },
+  "keywords": [
+    "CSS",
+    "CSS",
+    "Frameworks",
+    "Bootstrap",
+    "SCSS",
+    "SASS",
+    "JavaScript"
+  ],
+  "author": "Tuiter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AB30001/js2-ca-arnb/issues"
+  },
+  "homepage": "https://github.com/AB30001/js2-ca-arnb#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "sass": "^1.72.0"
+  }
+}
